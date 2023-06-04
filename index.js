@@ -1,11 +1,11 @@
 const count = () => {
-    const a = countdown(new Date(2023, 1, 5, 21, 30, 0, 0));
+    const a = countdown(new Date(2023, 7, 5, 16, 20, 0, 0));
     document.getElementById("days").innerText = a.days,
         document.getElementById("hours").innerText = a.hours,
         document.getElementById("minutes").innerText = a.minutes,
         document.getElementById("seconds").innerText = a.seconds;
 
-    return a.value
+    return a.value;
 
 }
 
